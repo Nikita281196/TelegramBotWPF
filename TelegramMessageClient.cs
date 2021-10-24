@@ -211,10 +211,10 @@ namespace TelegramBotWPF
             }   
         }
 
-        public TelegramMessageClient(MainWindow W, string PathToken = @"token.txt")
+        public TelegramMessageClient(MainWindow R, string PathToken = @"token.txt")
         {
             this.Messages = new ObservableCollection<Message>();
-            this.w = W;
+            this.w = R;
 
             botClient = new TelegramBotClient(File.ReadAllText(PathToken));
 
