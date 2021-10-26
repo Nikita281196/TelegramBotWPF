@@ -53,7 +53,7 @@ namespace TelegramBotWPF {
         #line hidden
         
         
-        #line 78 "..\..\MainWindow.xaml"
+        #line 73 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal LiveCharts.Wpf.CartesianChart cartesianChart1;
         
@@ -61,7 +61,7 @@ namespace TelegramBotWPF {
         #line hidden
         
         
-        #line 95 "..\..\MainWindow.xaml"
+        #line 90 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBlock TargetSend;
         
@@ -69,7 +69,7 @@ namespace TelegramBotWPF {
         #line hidden
         
         
-        #line 98 "..\..\MainWindow.xaml"
+        #line 93 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBlock SymbolForBinance;
         
@@ -77,7 +77,7 @@ namespace TelegramBotWPF {
         #line hidden
         
         
-        #line 102 "..\..\MainWindow.xaml"
+        #line 97 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox txtMsgSend;
         
@@ -85,7 +85,7 @@ namespace TelegramBotWPF {
         #line hidden
         
         
-        #line 103 "..\..\MainWindow.xaml"
+        #line 98 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnMsgSend;
         
@@ -127,7 +127,7 @@ namespace TelegramBotWPF {
             return;
             case 2:
             
-            #line 55 "..\..\MainWindow.xaml"
+            #line 50 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.MenuItem)(target)).Click += new System.Windows.RoutedEventHandler(this.saveHistoryMsg_Click);
             
             #line default
@@ -135,7 +135,7 @@ namespace TelegramBotWPF {
             return;
             case 3:
             
-            #line 57 "..\..\MainWindow.xaml"
+            #line 52 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.MenuItem)(target)).Click += new System.Windows.RoutedEventHandler(this.showFiles_Click);
             
             #line default
@@ -143,7 +143,7 @@ namespace TelegramBotWPF {
             return;
             case 4:
             
-            #line 58 "..\..\MainWindow.xaml"
+            #line 53 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.MenuItem)(target)).Click += new System.Windows.RoutedEventHandler(this.showChart_Click);
             
             #line default
@@ -151,7 +151,7 @@ namespace TelegramBotWPF {
             return;
             case 5:
             
-            #line 61 "..\..\MainWindow.xaml"
+            #line 56 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.MenuItem)(target)).Click += new System.Windows.RoutedEventHandler(this.exit_Click);
             
             #line default
@@ -172,7 +172,7 @@ namespace TelegramBotWPF {
             case 10:
             this.btnMsgSend = ((System.Windows.Controls.Button)(target));
             
-            #line 106 "..\..\MainWindow.xaml"
+            #line 101 "..\..\MainWindow.xaml"
             this.btnMsgSend.Click += new System.Windows.RoutedEventHandler(this.btnMsgSendClick);
             
             #line default
